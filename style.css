@@ -18,7 +18,16 @@
     --color-border: #D4D4ED;
     --color-gradient: linear-gradient(135deg, #5C56E1, #8B5CF6);
     --color-error: #050505;
-    --color-error-bg: rgba(77, 228, 255, 0.);
+    --color-error-bg: rgba(77, 228, 255, 0.0);
+}
+
+#loginSignupBtn{
+    padding: 12px;
+    margin-left: 360px;
+    color: #ffffff;
+    background: var(--color-gradient);
+    border: 0px solid blue;
+    border-radius: 30px;
 }
 
 .textt1{
