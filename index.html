@@ -30,11 +30,17 @@
                     </button>
                 </div>
                 <div class="prompt-actions">
+
+                    <button type="submit" class="generate-btn">
+                        <i class="fa-solid fa-wand-sparkles"></i>
+                        GENERATE
+                    </button>
+
                     <div class="select-wrapper">
                         <select class="custom-select" id="model-select" required>    
                             <option value="black-forest-labs/FLUX.1-dev">FLUX.1-dev</option>
                             <option value="Eviation/Flex.2-preview">FLUX.1-schnell</option>
-                            <option value="stabilityai/stable-diffusion-xl-base-1.0">Stable Diffusion XL</option>
+                            <option value="google/gemma-3-1b-it">google/gemma-3-1b-it</option>
                         </select>
                     </div>
                     <div class="select-wrapper">
@@ -50,13 +56,12 @@
                         <select class="custom-select" id="ratio-select" required>    
                             <option value="16/9">Landscape (16:9)</option>
                             <option value="1/1">Square (1:1)</option>
+                            <option value="1/1">Square (1:1)</option>
                             <option value="9/16">Portrait (9:16)</option>
+
                         </select>
                     </div>
-                    <button type="submit" class="generate-btn">
-                        <i class="fa-solid fa-wand-sparkles"></i>
-                        GENERATE
-                    </button>
+                    
                 </div>
                 <div id="errorMsg" class="error-message"></div>
                 <div class="gallery-grid"></div>
