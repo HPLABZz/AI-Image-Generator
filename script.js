@@ -8,7 +8,7 @@ const ratioSelect = document.querySelector("#ratio-select");
 const gridGallery = document.querySelector(".gallery-grid");
 const errorMsg = document.getElementById("errorMsg");
 // Hugging face api key
-const API_KEY = "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";
+const API_KEY = "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";
 
 const examplePrompts = [
   "A magic forest with glowing plants and fairy homes among giant mushrooms",
