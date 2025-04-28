@@ -22,8 +22,10 @@
 }
 
 #loginSignupBtn{
+    justify-content: end;
+    align-items: end;
     padding: 12px;
-    margin-left: 360px;
+    margin-left: 0px;
     color: #ffffff;
     background: var(--color-gradient);
     border: 0px solid blue;
@@ -109,7 +111,7 @@ body.dark-theme .container {
 
 .header {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     margin-bottom: 30px;
 }
