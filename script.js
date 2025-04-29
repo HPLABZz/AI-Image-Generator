@@ -192,7 +192,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 promptForm.addEventListener("submit", handleFormSubmit);
 themeToggle.addEventListener("click", toggleTheme);
 
-// ligin-sinup
-document.getElementById('loginSignupBtn').addEventListener('click', function() {
-    window.location.href = 'login.html';  // <-- put your login page link here
+// login-sinup
+document.getElementById('loginSignupBtn').addEventListener("click", function() {
+    window.location.href = "login.html";
   });

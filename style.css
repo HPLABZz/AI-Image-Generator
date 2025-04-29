@@ -20,16 +20,6 @@
     --color-error: #050505;
     --color-error-bg: rgba(77, 228, 255, 0.0);
 }
-
-#loginSignupBtn{
-    justify-content: end;
-    padding: 10px 20px 10px 20px ;
-    margin-left: 0px;
-    color: #ffffff;
-    background: var(--color-gradient);
-    border: 0px solid blue;
-    border-radius: 30px;
-}
   
 body.dark-theme {
     --color-card: #1E293B;
@@ -97,8 +87,6 @@ body.dark-theme .container {
 }
 
 .header {
-    /* display: flex;
-    justify-content: space-between; */
     margin-bottom: 30px;
 }
 
@@ -115,15 +103,19 @@ body.dark-theme .container {
     gap: 12px
 }
 
-/* .loginSignupBtn{
-    display: flex;
+#loginSignupBtn{
     justify-content: end;
-} */
+    padding: 10px 20px 10px 20px ;
+    margin-left: 0px;
+    color: #ffffff;
+    background: var(--color-gradient);
+    border: 0px solid blue;
+    border-radius: 30px;
+}
 
 .login{
-    /* display: flex; */
     justify-content: space-between;
-    padding: 10px 20px 10px 20px ;
+    padding: 4px 20px 4px 20px ;
     margin-left: 0px;
     color: #ffffff;
     background: var(--color-gradient);
@@ -427,6 +419,13 @@ body.dark-theme .container {
 
     .gallery-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .prompt-actions {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
