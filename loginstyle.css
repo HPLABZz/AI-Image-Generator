@@ -8,12 +8,29 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: url(./bg.jpg)no-repeat;
+    background: url(./bg1.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media(max-width: 768px){
+    body{
+        margin: 20px;
+        padding: 20px;
+        background: url(./bg2.jpeg)no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width: 350px;
+        height: 500px;
+    }
 }
 
 .container
@@ -23,7 +40,6 @@ body{
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-
     display: flex;
     align-items: center;
     justify-content: center;

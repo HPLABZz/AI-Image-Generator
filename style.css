@@ -105,27 +105,26 @@ body.dark-theme .container {
 
 #loginSignupBtn{
     justify-content: end;
-    padding: 10px 20px 10px 20px ;
     margin-left: 0px;
-    color: #ffffff;
-    background: var(--color-gradient);
-    border: 0px solid blue;
-    border-radius: 30px;
 }
 
 .login{
-    justify-content: space-between;
-    padding: 4px 20px 4px 20px ;
+    width: 60px;
+    height: 40px;
     margin-left: 0px;
     color: #ffffff;
     background: var(--color-gradient);
     border: 0px solid blue;
     border-radius: 30px;
 }
+.login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 2px 4px rgba(255, 255, 255, 0.30);
+}
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,9 +140,9 @@ body.dark-theme .container {
 }
 
 .theme-toggle {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +155,8 @@ body.dark-theme .container {
 
 .theme-toggle:hover {
     color: var(--color-primary);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 2px 4px rgba(255, 255, 255, 0.30);
 }
 
 .prompt-container {
