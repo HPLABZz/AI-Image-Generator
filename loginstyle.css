@@ -6,34 +6,26 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
     background: url(./bg1.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 @media(max-width: 768px){
     body{
-        width: 100vw;
-        height: 100vh;
-        background: url(./bg4.jpeg)no-repeat;
+        background: url(./bg3.jpeg)no-repeat;
         background-position: center;
         background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        
     }
     .container{
-        width: 250px;
-        height: 00px;
+        width: 350px;
+        height: 600px;
         background: rgba(0, 0, 0, 0.3);
         backdrop-filter: blur(10px);
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-        /* display: block; */
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -43,14 +35,12 @@ body{
     
 }
 
-.container
-{
-    width: 400px;
-    height: 500px;
+.container{
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
     display: flex;
+    padding: 50px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -58,24 +48,21 @@ body{
     border: 3px solid rgba(255, 255, 255, 0.5);
 }
 
-h2
-{
+h2{
     color: #ffff;
     font-size: 2em;
     text-transform: uppercase;
     padding: 20px 0;
 }
 
-.form-group
-{
+.form-group{
     position: relative;
     width: 330px;
     margin: 30px 0;
     border-bottom: 3px solid #ffff;
 }
 
-.form-group input
-{
+.form-group input{
     width: 100%;
     height: 50px;
     padding: 0 35px 0 10px;
@@ -86,8 +73,7 @@ h2
     color: #fff;
 }
 
-.form-group label
-{
+.form-group label{
     position: absolute;
     top: 50%;
     left: 10px;
@@ -98,13 +84,11 @@ h2
 }
 
 input:focus ~ label,
-input:valid ~ label
-{
+input:valid ~ label{
     top: -5px;
 }
 
-.form-group i
-{
+.form-group i{
     position: absolute;
     top: 50%;
     right: 10px;
@@ -113,28 +97,24 @@ input:valid ~ label
     font-size: 1.2em;
 }
 
-p
-{
+p{
     text-align: center;
     color: #fff;
     margin: 10px 0;
 }
 
-p>a
-{
+p>a{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
 }
 
-p>a:hover
-{
+p>a:hover{
     text-decoration: underline;
     font-style: italic;
 }
 
-#btn
-{
+#btn{
     width: 100%;
     height: 50px;
     border-radius: 40px;
@@ -147,8 +127,7 @@ p>a:hover
     transition: all 0.5s;
 }
 
-#btn:hover
-{
+#btn:hover{
     background: rgba(0, 0, 0, 0.3);
     color: #fff;
 }
