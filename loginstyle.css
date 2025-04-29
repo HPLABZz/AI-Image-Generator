@@ -18,19 +18,16 @@ body{
 
 @media(max-width: 768px){
     body{
-        margin: 20px;
-        padding: 20px;
-        background: url(./bg2.jpeg)no-repeat;
+        width: 100vw;
+        height: 100vh;
+        background: url(./bg3.jpeg)no-repeat;
         background-position: center;
         background-size: cover;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .container{
-        width: 350px;
-        height: 500px;
-    }
+    
 }
 
 .container
