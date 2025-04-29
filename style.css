@@ -23,25 +23,12 @@
 
 #loginSignupBtn{
     justify-content: end;
-    align-items: end;
-    padding: 12px;
+    padding: 10px 20px 10px 20px ;
     margin-left: 0px;
     color: #ffffff;
     background: var(--color-gradient);
     border: 0px solid blue;
     border-radius: 30px;
-}
-
-.textt1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 12px;
-    text-align: center;
-    /* font-family: 'Font Awesome 6 Free'; */
-    color: #ffffff;
-    align-items: center;
 }
   
 body.dark-theme {
@@ -110,16 +97,38 @@ body.dark-theme .container {
 }
 
 .header {
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     margin-bottom: 30px;
 }
 
 .logo-wrapper {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
+}
+
+.left-header, .right-header {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+/* .loginSignupBtn{
+    display: flex;
+    justify-content: end;
+} */
+
+.login{
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px ;
+    margin-left: 0px;
+    color: #ffffff;
+    background: var(--color-gradient);
+    border: 0px solid blue;
+    border-radius: 30px;
 }
 
 .logo {
