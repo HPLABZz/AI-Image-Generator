@@ -16,9 +16,9 @@ body{
     justify-content: center;
 }
 
-.container
-{
-    height: 500px;
+.container{
+    width: 400px;
+    height: 540px;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
@@ -140,11 +140,15 @@ p>a:hover
     font-weight: 600;
     margin: 10px 0;
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 0.4s;
+    color: #fff;
+    background-color: rgba(33, 33, 33, 0.45);
 }
 
 #btn:hover
 {
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
+    background: rgba(40, 40, 40, 0.69);
+    color: #ffffff;
+    translate: 0px -3px;
+    box-shadow: 0px 5px 8px  rgba(14, 45, 48, 0.751);
 }
