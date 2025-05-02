@@ -63,7 +63,7 @@ body {
 .container {
     width: 900px;
     max-width: 100%;
-    padding: 30px;
+    padding: 3%;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
@@ -421,19 +421,13 @@ body.dark-theme .container {
     
     .container {
         padding: 20px;
+        width: 370
     }
 
     .gallery-grid {
         grid-template-columns: 1fr;
     }
 }
-
-/* @media (max-width: 768px) {
-    .prompt-actions {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-} */
 
 .footer {
     background-color: #72447071;
