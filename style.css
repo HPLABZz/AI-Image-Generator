@@ -34,7 +34,7 @@ body.dark-theme {
 
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
     position: relative;
     padding-bottom: 50px;
     display: flex;
