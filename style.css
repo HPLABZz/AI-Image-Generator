@@ -11,7 +11,7 @@
     --color-primary: #5C56E1;
     --color-primary-dark: #5b21b6;
     --color-accent: #8B5CF6;
-    --color-card: #ffffff52;
+    --color-card: #9cf7ff2a;
     --color-input: #b6c2b85a;
     --color-text: #09090E;
     --color-placeholder: #5C5A87;
@@ -33,15 +33,14 @@ body.dark-theme {
   }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     position: relative;
     padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 20px;
     color: var(--color-text);    
     min-height: 100vh;
     background: linear-gradient(90deg, #ee7652a5, #e73c7eaa, #23a5d5aa, #23d5aba8);
@@ -69,7 +68,7 @@ body {
     border-radius: 20px;
     overflow: hidden;
     background: var(--color-card);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.18);
 }
 
 body.dark-theme .container {
@@ -416,6 +415,8 @@ body.dark-theme .container {
 @media (max-width: 768px) {
     .prompt-actions {
         grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column-reverse;
     }
     
     .container {
@@ -427,12 +428,12 @@ body.dark-theme .container {
     }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .prompt-actions {
         display: flex;
         flex-direction: column-reverse;
     }
-}
+} */
 
 .footer {
     background-color: #72447071;
