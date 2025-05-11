@@ -8,7 +8,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: url(./bg1.jpg)no-repeat;
+    background: url(Images/bg1.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -41,7 +41,7 @@ body{
     body{
         width: 100vw;
         height: 100vh;
-        background: url(./bg4.jpeg)no-repeat;
+        background: url(Images/bg4.jpeg)no-repeat;
         background-position: center;
         background-size: cover;
         
