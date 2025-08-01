@@ -9,7 +9,7 @@ const gridGallery = document.querySelector(".gallery-grid");
 const errorMsg = document.getElementById("errorMsg");
 
 // Hugging face api key
-const API_KEY = "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";
+const API_KEY = "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";
 
 const examplePrompts = [
   "A magic forest with glowing plants and fairy homes among giant mushrooms",
